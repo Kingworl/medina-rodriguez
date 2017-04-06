@@ -5,3 +5,8 @@ header svg{
 	 -webkit-filter: drop-shadow( 3px 3px 1.5px rgba(0, 0, 0, 1) );
             filter: drop-shadow( 3px 3px 1.5px rgba(0, 0, 0, 1) );
 }
+
+header svg.down-button{
+	margin-top: 125px;
+	height: 27.5px;
+}
