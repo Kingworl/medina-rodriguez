@@ -1,5 +1,7 @@
 header svg{
 	height: 150px;
 	width:auto;
-	fill: rgb(255, 255, 255);
+	fill: rgba(255, 255, 255, 1);
+	 -webkit-filter: drop-shadow( .2em .2em .1em rgba(0, 0, 0, 1) );
+            filter: drop-shadow( .2em .2em .1em rgba(0, 0, 0, 1) );
 }
