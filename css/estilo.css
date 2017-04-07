@@ -101,11 +101,12 @@ video{
 	}
 
 .dupla{
-	width:46%;
+	box-sizing: border-box;
+	width:50%;
 	padding:2%;
 	float:left;
 	background-color:red;
-	}
+}
 
 .dupla a{
 	color:rgba(255,0,0,0.75);
