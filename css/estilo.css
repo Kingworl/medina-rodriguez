@@ -4,30 +4,26 @@
 }
 
 body{
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	font-weight:400;
-	background:url("../images/background.jpg") repeat;
-	color:rgba(0,0,0,1);
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	background: url("../images/background.jpg") repeat;
+	color: rgba(0,0,0,1);
 }
 
-h1, h2, h3{text-align:center; font-weight:700;}
-
-h4, h5, h6{font-weight:700;}
-
-h1{
+h1, h2, h3{
+	text-align: center; 
 	letter-spacing: .1em; 
-	color:rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 	text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 1);
 }
 
-h2{
-	letter-spacing: .02em; 
-	color:rgba(255, 255, 255, 1);
-	padding: .2em 0; 
-	text-shadow: 3px 3px 1.5px rgba(0, 0, 0, 1);
+h1, h2, h3, h4{
+	font-family: 'Revalia', cursive;
 }
 
-h3{letter-spacing:0.2em; color:rgba(0,0,0,1); padding:2em 0 0.6em 0; }
+h5, h6{
+	font-weight: 700;
+}
 
 #contenido{
 	width:100%;
