@@ -176,7 +176,9 @@ video{
 }
 
 .item {
+	box-sizing: border-box;
 	width:23%;
+	padding: 1.5%;
 	margin:1%;
 	color:#333;
 	background:white;
