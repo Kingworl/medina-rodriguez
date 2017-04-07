@@ -6,8 +6,45 @@
 body{
 	font-family: 'Rubik', sans-serif;
 	font-weight: 400;
-	background: url("../images/background.jpg") repeat;
+	background: rgba(255,255,255,1) url('../images/background.png');
+	background-size: 1.5em;
 	color: rgba(0,0,0,1);
+	-webkit-animation: fondo 4s infinite linear alternate;
+	-moz-animation: fondo 4s infinite linear alternate;
+	-ms-animation: fondo 4s infinite linear alternate;
+	animation: fondo 4s infinite linear alternate;
+}
+
+@-webkit-keyframes fondo {
+	0% {background-color:rgba(255, 51, 51, 1);}
+	25% {background-color:rgba(255, 255, 51, 1);}
+	50% {background-color:rgba(102, 255, 51, 1);}
+	75% {background-color:rgba(51, 51, 255, 1);}
+	100% {background-color:rgba(255, 51, 102, 1);}
+}
+
+@-moz-keyframes fondo {
+	0% {background-color:rgba(255, 51, 51, 1);}
+	25% {background-color:rgba(255, 255, 51, 1);}
+	50% {background-color:rgba(102, 255, 51, 1);}
+	75% {background-color:rgba(51, 51, 255, 1);}
+	100% {background-color:rgba(255, 51, 102, 1);}
+}
+
+@-ms-keyframes fondo {
+	0% {background-color:rgba(255, 51, 51, 1);}
+	25% {background-color:rgba(255, 255, 51, 1);}
+	50% {background-color:rgba(102, 255, 51, 1);}
+	75% {background-color:rgba(51, 51, 255, 1);}
+	100% {background-color:rgba(255, 51, 102, 1);}
+}
+
+@keyframes fondo {
+	0% {background-color:rgba(255, 51, 51, 1);}
+	25% {background-color:rgba(255, 255, 51, 1);}
+	50% {background-color:rgba(102, 255, 51, 1);}
+	75% {background-color:rgba(51, 51, 255, 1);}
+	100% {background-color:rgba(255, 51, 102, 1);}
 }
 
 h1, h2, h3{
@@ -135,30 +172,6 @@ video{
 	background:rgb(250,250,250);
 	padding-bottom:1%;
 	/* 4 veces lo mismo, para que funcione en distintos navegadores */
-	-webkit-animation: fondo 3s infinite linear alternate;
-	-moz-animation: fondo 3s infinite linear alternate;
-	-ms-animation: fondo 3s infinite linear alternate;
-	animation: fondo 3s infinite linear alternate;
-	}
-
-@-webkit-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
-}
-
-@-moz-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
-}
-
-@-ms-keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
-}
-
-@keyframes fondo {
-	from {background-color:rgba(241,230,210,1);}
-	to {background-color:rgba(231,240,239,1);}
 }
 
 .item {
