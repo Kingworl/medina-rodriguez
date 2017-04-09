@@ -128,7 +128,7 @@ video, #somos, #portafolio {
 }
 
 .primera{
-	min-height:300px;
+	height:400px;
 	text-align:left;
 	background-image:url('../images/foto-rai-1.png');
 	background-position:top right;
@@ -141,16 +141,16 @@ video, #somos, #portafolio {
 	background-image:url('../images/foto-rai-2.png');
 }
 
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 2% 45% 1% 2%;}
 
-.primera h5{padding: 1% 40% 2% 2%; margin-bottom:2.5em;}
+.primera h5{padding: 1% 45% 2% 2%; margin-bottom:2.5em;}
 
-.primera p{padding: 2% 40% 2% 2%;}
+.primera p{padding: 2% 45% 2% 2%;}
 
-.primera address{padding: 2% 40% 2% 2%; font-style:normal;}
+.primera address{padding: 2% 45% 2% 2%; font-style:normal;}
 
 .segunda{
-	min-height:300px;
+	height:400px;
 	text-align:right;
 	background-image:url('../images/foto-fran-1.png');
 	background-position:top left;
@@ -163,13 +163,13 @@ video, #somos, #portafolio {
 	background-image:url('../images/foto-fran-2.png');
 }
 
-.segunda h4{padding: 2% 2% 1% 40%;}
+.segunda h4{padding: 2% 2% 1% 45%;}
 
-.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:2.5em;}
+.segunda h5{padding: 1% 2% 2% 45%; margin-bottom:2.5em;}
 
-.segunda p{padding: 2% 2% 2% 40%;}
+.segunda p{padding: 2% 2% 2% 45%;}
 
-.segunda address{padding: 2% 2% 2% 40%; font-style:normal;}
+.segunda address{padding: 2% 2% 2% 45%; font-style:normal;}
 
 #somos hr{
 	clear:both;
